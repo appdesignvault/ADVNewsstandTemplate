@@ -12,7 +12,7 @@
 		EC0E327816EA34B700F8A633 /* ios-icon-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0E327316EA34B700F8A633 /* ios-icon-iphone.png */; };
 		EC0E327916EA34B700F8A633 /* ios-icon-iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0E327416EA34B700F8A633 /* ios-icon-iphone@2x.png */; };
 		EC0E327A16EA34B700F8A633 /* issue_01.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0E327516EA34B700F8A633 /* issue_01.png */; };
-		EC0E327C16EA35AB00F8A633 /* issues-type.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC0E327B16EA35AB00F8A633 /* issues-type.plist */; };
+		EC0E327C16EA35AB00F8A633 /* issues.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC0E327B16EA35AB00F8A633 /* issues.plist */; };
 		EC0E329316EA3F9600F8A633 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0E31D016EA2EB000F8A633 /* back.png */; };
 		EC0E329416EA3F9600F8A633 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0E31D116EA2EB000F8A633 /* back@2x.png */; };
 		EC0E329516EA3F9600F8A633 /* background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0E31D216EA2EB000F8A633 /* background@2x~ipad.png */; };
@@ -156,7 +156,7 @@
 		EC0E327316EA34B700F8A633 /* ios-icon-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-icon-iphone.png"; sourceTree = "<group>"; };
 		EC0E327416EA34B700F8A633 /* ios-icon-iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-icon-iphone@2x.png"; sourceTree = "<group>"; };
 		EC0E327516EA34B700F8A633 /* issue_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = issue_01.png; sourceTree = "<group>"; };
-		EC0E327B16EA35AB00F8A633 /* issues-type.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "issues-type.plist"; sourceTree = "<group>"; };
+		EC0E327B16EA35AB00F8A633 /* issues.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = issues.plist; sourceTree = "<group>"; };
 		ECB3F5F116E8D3FA002D2EA0 /* ADVNewsstandTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADVNewsstandTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB3F5F416E8D3FA002D2EA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ECB3F5F616E8D3FA002D2EA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -431,7 +431,7 @@
 		ECB3F5FB16E8D3FA002D2EA0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC0E327B16EA35AB00F8A633 /* issues-type.plist */,
+				EC0E327B16EA35AB00F8A633 /* issues.plist */,
 				ECB3F5FC16E8D3FA002D2EA0 /* ADVNewsstandTemplate-Info.plist */,
 				ECB3F5FD16E8D3FA002D2EA0 /* InfoPlist.strings */,
 				ECB3F60016E8D3FA002D2EA0 /* main.m */,
@@ -634,7 +634,7 @@
 				EC0E327816EA34B700F8A633 /* ios-icon-iphone.png in Resources */,
 				EC0E327916EA34B700F8A633 /* ios-icon-iphone@2x.png in Resources */,
 				EC0E327A16EA34B700F8A633 /* issue_01.png in Resources */,
-				EC0E327C16EA35AB00F8A633 /* issues-type.plist in Resources */,
+				EC0E327C16EA35AB00F8A633 /* issues.plist in Resources */,
 				EC0E329316EA3F9600F8A633 /* back.png in Resources */,
 				EC0E329416EA3F9600F8A633 /* back@2x.png in Resources */,
 				EC0E329516EA3F9600F8A633 /* background@2x~ipad.png in Resources */,
