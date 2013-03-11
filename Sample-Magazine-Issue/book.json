@@ -1,0 +1,28 @@
+{
+    "hpub": 1,
+    "title": "App Design Mag",
+    "author": ["Tope Abayomi"],
+    "creator": ["T. Abayomi"],
+    "date": "2013-04-10",
+    "url": "book://appdesignvault.com/mag",
+    "cover": "cover-image.png",
+
+    "orientation": "both",
+    "zoomable": false,
+
+    "-baker-background": "#FFFFFF",
+    "-baker-vertical-bounce": true,
+    "-baker-media-autoplay": true,
+    "-baker-background-image-portrait": "gfx/background-portrait.png",
+    "-baker-background-image-landscape": "gfx/background-landscape.png",
+    "-baker-page-numbers-color": "#000000",
+
+    "contents": [
+        "contents.html",
+        "template-1.html",
+        "template-2.html",
+        "template-3.html",
+        "template-11.html",
+        "template-12.html"
+    ]
+}

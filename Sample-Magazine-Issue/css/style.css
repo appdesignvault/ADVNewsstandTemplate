@@ -1,0 +1,329 @@
+@charset "utf-8";
+/*==General Styles
+*********************************************/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+article, aside, figure { display: block;}
+
+article{
+
+	width:550px;
+}
+
+.center
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+html {
+	min-height: 100%;
+	display: block;
+	position: relative;
+	font-family: 'Georgia';
+	font-size: 15px;
+	line-height:1.4;
+}
+
+.clearfix:before, .clearfix:after {
+	content: ' ';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix:after {
+	clear: both;
+}
+.half {
+	width:50%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.left {
+	float:left;
+}
+.right {
+	float: right;
+}
+
+
+.half.left {
+	padding-right: 10px;
+}
+.half.right {
+	padding-left: 10px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+/*********************************************/
+
+#template-1 { 
+	background-size:100% 100%;
+	-moz-background-size:100%;
+	-webkit-background-size:100% 100%;
+	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+#template-1 article { 
+	padding: 40px 50px 40px 50px; 
+	font-size: 12pt; 
+	color:rgb(109,110,113); 
+}
+
+#template-1 article h1 { 
+	font-family: 'Futura-CondensedExtraBold'; 
+	font-size:50px; 
+	font-weight: bold; 
+	line-height: 1.1; 
+	margin-top: 10px; 
+	margin-bottom: 30px; 
+	color:#00a8d2;
+}
+
+#template-1 article h2 { 
+	font-family: 'Futura-CondensedMedium'; 
+	font-size:20px;
+	text-transform:uppercase; 
+	font-weight: bold; 
+	line-height: 1.2; 
+	margin-top: 10px; 
+	margin-bottom: 20px; 
+	color:#00a8d2;
+}
+
+#template-1 article h2.author { 
+	font-size:12px;
+}
+
+
+#template-1 article h3 { 
+	font-family: 'Optima-Regular'; 
+	font-size:25px;
+	line-height: 1.2;  
+	margin-bottom: 10px; 
+}
+
+
+#template-1 article p { 
+	font-family: 'Optima-Regular'; 
+	font-size:20px;
+	line-height: 1.3;  
+}
+
+#template-1 .image { 
+	
+	margin-bottom: 30px; 
+
+	height: 365px; 
+	width: 550px; 
+	border: 10px  solid #dddddd;
+   
+	background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+        
+}
+
+
+#template-1 .fullscreen-header { 
+	position:fixed;
+	top:700px;
+	left:350px;
+	padding:20px;
+	text-align:right;
+}
+
+
+#template-1 .fullscreen-header h1 { 
+	color:#ffffff;
+	font-size:40px; 
+	font-family: 'Avenir-Black'; 
+}
+
+/*********************************************/
+
+
+
+#template-2 #template-2-img {  height: 512px;
+	background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+}
+
+
+#template-2 article { 
+	padding: 40px 50px 40px 50px; 
+	font-size: 12pt; 
+	color:rgb(109,110,113); 
+}
+
+#template-2 article h1 { 
+	font-family: 'Avenir-Black'; 
+	font-size:50px; 
+	line-height: 1; 
+	margin-top: 10px; 
+	margin-bottom: 30px; 
+	color:#E95C3F;
+	text-align: center;
+}
+
+#template-2 article h2 { 
+	font-family: 'Avenir-Black'; 
+	font-size:20px;
+	text-transform:uppercase; 
+	line-height: 1.2; 
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	color:#E95C3F;
+}
+
+#template-2 article h2.author { 
+	font-size:15px;
+	text-align: center;
+}
+
+
+#template-2 article h3 { 
+	font-family: 'Baskerville'; 
+	font-size:25px;
+	line-height: 1.2;  
+	margin-bottom: 10px; 
+}
+
+
+#template-2 article p { 
+	font-family: 'Baskerville'; 
+	font-size:20px;
+	line-height: 1.3;  
+}
+
+/*********************************************/
+
+
+/*********************************************/
+
+
+
+#template-3 #template-3-img {  height: 512px;
+	background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+}
+
+
+#template-3 article { 
+	padding: 40px 50px 40px 50px; 
+	font-size: 12pt; 
+	color:rgb(109,110,113); 
+}
+
+#template-3 article h1 { 
+	font-family: 'GillSans';
+	font-size:50px; 
+	line-height: 1; 
+	margin-top: 10px; 
+	margin-bottom: 30px; 
+	color:#000000;
+	text-align: center;
+}
+
+#template-3 article h2 { 
+	font-family: 'GillSans'; 
+	font-size:20px;
+	text-transform:uppercase; 
+	line-height: 1.2; 
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	color:#000000;
+}
+
+#template-3 article h2.author { 
+	font-size:15px;
+	text-align: center;
+}
+
+
+#template-3 article h3 { 
+	font-family: 'Baskerville'; 
+	font-size:25px;
+	line-height: 1.2;  
+	margin-bottom: 10px; 
+}
+
+
+#template-3 article p { 
+	font-family: 'Baskerville'; 
+	font-size:20px;
+	line-height: 1.3;  
+}
+
+/*********************************************/
+
+#contents-1 { background: url(../gfx/background-portrait.png) no-repeat right top; }
+#contents-1 #wrapper {
+    padding-top: 145px;
+}
+
+#contents-1 h1, #contents-1 h2, #contents-1 h3 
+{
+	font-family: 'Avenir-Black'; 
+	color:#00a8d2;
+}
+
+#contents-1 h1 {
+	font-size: 36pt; line-height:1; text-transform: uppercase; margin: 0 0 30px 65px;
+}
+#contents-1 #contents-1-img {
+	height: 300px;
+	margin-bottom: 80px;
+}
+#contents-1 #contents-1-img:before,
+#contents-1 #contents-1-img:after {
+	content: " ";
+	width: 32%;
+	display: block;
+	height: 300px;
+}
+#contents-1 #contents-1-img:before {
+	float: left;
+	background-size:100% 100%;
+	-moz-background-size:100%;
+	-webkit-background-size:100% 100%;
+
+}
+#contents-1 #contents-1-img:after {
+	float: right;
+	background-size:100% 100%;
+	-moz-background-size:100%;
+	-webkit-background-size:100% 100%;
+}
+#contents-1 article {
+	padding: 0 65px 50px;
+	line-height:1;
+}
+
+#contents-1 article li { list-style: none; margin-bottom:40px; }
+#contents-1 article li + li { margin-top: 10px; }
+#contents-1 article li h2 { font-size: 22px; margin: 5px 0 3px;  font-weight: 500; }
+#contents-1 article li h3 { text-transform: uppercase; font-size: 12px; font-weight: normal; color: rgb(101,110,103); line-height: 1.2; text-align: justify; }
+#contents-1 article li p { font-family: 'Avenir-Black'; font-size: 18px; color: rgb(101,110,103); margin-bottom:5px; }
+#contents-1 article .half.left { padding-right: 30px; }
+#contents-1 article .half.right { padding-left: 30px; }
+
+#contents-1 #contents-1-img:before { background: url(../images/contents1/contents-1.jpg) no-repeat center; }
+#contents-1 #contents-1-img:after { background: url(../images/contents1/contents-2.jpg) no-repeat center; }
+#contents-1 #contents-1-img { background: url(../images/contents1/contents-3.jpg) no-repeat center; }
+

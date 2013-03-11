@@ -1,0 +1,12 @@
+
+*.xcworkspacedata
+
+ADVNewsstandTemplate/ADVNewsstandTemplate.xcodeproj/project.xcworkspace/xcuserdata/tope.xcuserdatad/UserInterfaceState.xcuserstate
+
+ADVNewsstandTemplate/ADVNewsstandTemplate.xcodeproj/project.xcworkspace/xcuserdata/tope.xcuserdatad/WorkspaceSettings.xcsettings
+
+ADVNewsstandTemplate/ADVNewsstandTemplate.xcodeproj/xcuserdata/tope.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist
+
+ADVNewsstandTemplate/ADVNewsstandTemplate.xcodeproj/xcuserdata/tope.xcuserdatad/xcschemes/ADVNewsstandTemplate.xcscheme
+
+ADVNewsstandTemplate/ADVNewsstandTemplate.xcodeproj/xcuserdata/tope.xcuserdatad/xcschemes/xcschememanagement.plist
